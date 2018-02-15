@@ -1,0 +1,41 @@
+@font-face {
+	font-family: SuperstarM54;
+	src: url(../font/SuperstarM54.ttf);
+	font-family: Logger;
+	src: url(../font/Logger.ttf);
+}
+body {
+	background: url(../img/woodShavings.jpg) no-repeat;
+}
+h1 {
+	font-family: SuperstarM54;
+	text-align: center;
+	font-size: 90px;
+	text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+	margin: 10px;
+}
+#memoryBoard {
+	width: 860px;
+	height: 610px;
+	padding: 24px;
+	margin: 30px auto;
+}
+#memoryBoard > div {
+	background: url(../img/wood.png) no-repeat;
+	color: black;
+	width: 120px;
+	height: 180px;
+	float: left;
+	margin: 10px;
+	font-family: SuperstarM54;
+	font-size: 160px;
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+	cursor: pointer;
+	text-align: center;
+	box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	border-radius: 5px;
+}
+#memoryBoard > div > img {
+	width: 120px;
+	height: 180px;
+}

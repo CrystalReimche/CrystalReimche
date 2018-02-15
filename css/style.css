@@ -1,0 +1,111 @@
+/* *************************************
+MAIN CONTENT 
+**************************************** */
+
+body {
+	background: url(../images/winterTrees.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Oswald', sans-serif;
+}
+
+/* *************************************
+NAVIGATION
+**************************************** */
+
+.navbar a {
+	font-size: 1.5rem;
+}
+.navbar-nav li a {
+	font-size: 1.25rem;
+}
+
+/* *************************************
+HEADER
+**************************************** */
+
+header::after {
+	/* This is the underline */
+	display: block;
+	content: "";
+	height: 3px;
+	width: 800px;
+	background: #292B2C;
+	margin: 5px auto 40px;
+	box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* *************************************
+PORTFOLIO
+**************************************** */
+
+.card-body {
+	height: 187px;
+	width: auto;
+}
+
+.btn {
+	background-color: #292B2C;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+.nounderline:hover {
+	text-decoration: none;
+}
+
+/* *************************************
+WHO AM I
+**************************************** */
+
+.bgTrans {
+	background-color: transparent;
+	border: none;
+}
+
+.blockquote {
+	border-left: none;
+}
+
+.container-fluid {
+	width: 100%;
+}
+	
+/* *************************************
+CONTACT ME
+**************************************** */
+
+.foot::before {
+	/* This is the underline */
+	display: block;
+	content: "";
+	height: 3px;
+	width: 800px;
+	background: #292B2C;
+	margin: 5px auto 20px;
+	box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+ul > li {
+	list-style-type: none;
+}
+	
+
+.contact {
+	width: 175px;
+	height: auto;
+	margin: 0px 25px;
+}
+
+h1 .btn {
+	font-size:30px;
+}
+	
+	
+	
+	
+	
+	
+	

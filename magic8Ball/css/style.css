@@ -1,0 +1,79 @@
+@font-face {
+	font-family: "Frank Knows";
+	src: url('../font/Frank Knows.ttf') format('TrueType');
+}
+@font-face {
+	font-family: "youmurdererbb_reg";
+	src: url('../font/youmurdererbb_reg.otf') format('OpenType')
+}
+body {
+	font-family: "Montserrat", sans-serif;
+	color: #454545;
+	margin: 0px;
+	padding: 0px;
+	background-image: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container {
+	width: 80%;
+	max-width: 960px;
+	margin: 40px auto;
+}
+.step {
+	font-family: 'youmurdererbb_reg';
+	text-align: center;
+	font-size: 80px;
+	color: #660000;
+	text-shadow: 1px 1px #fff;
+}
+.container > .ball,
+img {
+	width: 500px;
+	height: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.button {
+	margin: 0 auto;
+}
+.answer {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: 00px;
+	margin-left: -65px;
+	width: 7%;
+	font-family: 'Frank Knows';
+	font-size: 25px;
+	color: #660000;
+	text-transform: uppercase;
+	font-weight: bold;
+	word-wrap: normal;
+	text-align: center;
+}
+#questionButton {
+	font-family: 'youmurdererbb_reg';
+	text-align: center;
+	font-size: 80px;
+	color: #660000;
+	text-shadow: 1px 1px #fff;
+	display: block;
+	margin: 0 auto;
+	background-color: Transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+	outline: none;
+}
+#designed {
+	font-family: "Montserrat", sans-serif;
+	width: 25%;
+	text-transform: uppercase;
+	font-size: 12px;
+	display: block;
+	margin: 30px 5px 0px 700px;
+	color: #969696;
+}

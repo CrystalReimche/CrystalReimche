@@ -1,0 +1,364 @@
+/* *************************************					HOME PAGE 					**************************************** */
+
+body {
+	background-color: darkred;
+}
+
+#homeImage {
+	background: url(../images/fernielow.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.homeNav {
+	background-color: rgba(0, 0, 0, 0.6);
+	background-position: center;
+	text-align: center;
+	padding: 5px;
+	width: 99.5%;
+	margin-top: 300px;
+}
+
+#name {
+	color: white;
+	font-size: 45pt;
+	margin-left: 80px;
+	margin-top: 125px;
+}
+
+/*
+#lastName {
+	margin-left: 150px;
+}
+*/
+
+/* *************************************					NAVIGATION 					**************************************** */
+
+body {
+	background: url("");
+	background-color: rgb(51, 51, 51);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	letter-spacing: 2px;
+}
+
+/* LOOK @ NAV AND THEN @ UL */
+
+.nav > ul {
+	list-style: none;
+	background-color: rgba(0, 0, 0, 0.6);
+	text-align: center;
+	padding: 10px;
+	width: 98.5%;
+}
+
+.nav > li,
+.homeNav > li {
+	width: 230px;
+	border-bottom: none;
+	height: 50px;
+	line-height: 40px;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+/* LOOK @ NAV THEN @ UL THEN @ LI*/
+
+.nav > ul > li,
+.homeNav > ul> li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px 35px 5px 35px;
+	position: relative;
+	text-align: left;
+	line-height: 40px;
+	font-size: 25px;
+}
+
+.nav > ul > li:hover,
+.homeNav > ul > li:hover {
+	background-color: #009933;
+}
+
+ul.submenu {
+	position: absolute;
+	background-color: #141414;
+	list-style-type: none;
+	width: 190px;
+	padding-left: 0px;
+	padding-top: 5px;
+	padding-right: 60px;
+	margin-top: 5px;
+	margin-left: -35px;
+	opacity: 0;
+	visibility: hidden;
+}
+
+ul.submenu li {
+	padding-left: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* WHEN HOVER OVER NAV LIST, I WANT SUBMENU TO CHANGE */
+
+.nav li:hover .submenu {
+	opacity: 1;
+	visibility: visible;
+}
+
+ul.submenu li:hover {
+	color: white;
+}
+
+.nav a,
+.homeNav a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+	transition: .3s background-color;
+}
+
+.nav a:hover,
+.homeNav a:hover {
+	background-color: #009933;
+	color: black;
+}
+
+/* ******************************				PHOTOGRAPHY & WOODWORKING PAGE 				************************************* */
+
+.flexContainer {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1032px;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 5px black solid;
+	overflow: hidden;
+}
+
+.photoContainer h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+.images {
+  margin: 15px;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border: 5px black solid;
+}
+
+hr {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -1px black inset;
+}
+
+/* ================================= 
+  Photo Overlay Transitions
+==================================== */
+
+img {
+	transition: transform .5s;
+	transform-origin: 50% 50%;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+
+/* *************************************					ABOUT PAGE 					**************************************** */
+
+#aboutMe {
+	font-size: 25px;
+	text-align: center;
+	padding: 20px;
+	display: inline-block;
+	border: 5px black solid;
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 50%;
+	margin: 5% auto auto 23%;
+	line-height: 35px;
+}
+
+/* *************************************					CONTACT PAGE 					**************************************** */
+
+.error {
+	color: red;
+}
+
+.success {
+	color: #ff9966;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+.container {
+	max-width: 400px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+	font: 400 12px/16px 'Oswald', sans-serif;
+}
+
+#contact {
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 5px black solid;
+	padding: 25px;
+	margin: 50px 0;
+}
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin: 5px 0 15px;
+	display: block;
+	font-size: 13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="phone"],
+#contact textarea {
+	width: 100%;
+	border: 1px solid #CCC;
+	background: #FFF;
+	margin: 0 0 5px;
+	padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="phone"]:hover,
+#contact textarea:hover {
+	-webkit-transition: border-color 0.3s ease-in-out;
+	-moz-transition: border-color 0.3s ease-in-out;
+	transition: border-color 0.3s ease-in-out;
+	border: 1px solid #AAA;
+}
+
+#contact textarea {
+	height: 100px;
+	max-width: 100%;
+	resize: none;
+}
+
+#contact button[type="submit"] {
+	cursor: pointer;
+	width: 100%;
+	border: none;
+	background: #009933;
+	color: #FFF;
+	margin: 0 0 5px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+	background: #009933;
+	-webkit-transition: background 0.3s ease-in-out;
+	-moz-transition: background 0.3s ease-in-out;
+	transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+	outline: 0;
+	border: 1px solid #999;
+}
+
+::-webkit-input-placeholder {
+	color: #888;
+}
+
+:-moz-placeholder {
+	color: #888;
+}
+
+::-moz-placeholder {
+	color: #888;
+}
+
+:-ms-input-placeholder {
+	color: #888;
+}
+
+/* *************************************					TOP TO PAGE 					**************************************** */
+
+#myBtn {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Fixed/sticky position */
+	bottom: 50px;
+	/* Place the button at the bottom of the page */
+	right: 50px;
+	/* Place the button 30px from the right */
+	z-index: 99;
+	/* Make sure it does not overlap */
+	border: none;
+	/* Remove borders */
+	outline: none;
+	/* Remove outline */
+	background-color: white;
+	/* Set a background color */
+	color: black;
+	/* Text color */
+	cursor: pointer;
+	/* Add a mouse pointer on hover */
+	padding: 10px;
+	/* Some padding */
+	border-radius: 3px;
+	/* Rounded corners */
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+#myBtn:hover {
+	background-color: #009933;
+	/* Add a dark-grey background on hover */
+}

@@ -1,0 +1,57 @@
+<html>
+
+<head>
+	<title>MAGIC 8 BALL</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/prompt.css">
+	<!--	<script type="text/javascript" src="js/script.js"></script>-->
+	<script type="text/javascript" src="js/prompt.js"></script>
+	<script>
+		function changeText(val) {
+			document.getElementById('input').innerHTML = val;
+		}
+
+	</script>
+</head>
+
+<body>
+	<div class="container">
+
+		<header>
+			<!--			<h1>MAGIC <span>8</span> BALL</h1>-->
+			<h1 class="step">Step inside and test your fate... <br>don't blame me when it's too late!</h1>
+		</header>
+		<div class="ball">
+			<img id="8ball" src="img/Magic_eight_ball4.png">
+			<p id="answer" class="answer">
+				<!--				THIS IS WHERE THE ANSWER GOES-->
+			</p>
+
+		</div>
+
+		<br>
+		<br>
+
+
+		<button id="input" onclick="Prompt.render('Type some text:','changeText')">ASK ME ANYTHING</button>
+
+		<!--<div class="button" style="position:relative; width:80%">
+			<button id="questionButton">ASK ME ANYTHING</button>
+		</div>-->
+
+		<footer>
+			<p>&copy; Skillcrush 2016</p>
+		</footer>
+
+
+
+
+	</div>
+</body>
+
+</html>
